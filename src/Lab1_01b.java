@@ -52,8 +52,8 @@ public class Lab1_01b {
 //		if (a > c)
 //			return c;
 //		return a;
-		a = a < b ? a : b;
-		return a < c ? a : c;
+//		a = a < b ? a : b;
+		return (a>b?b:a) < c ? (a>b?b:a) : c;
 	}
 	
 	public static int largest(int a, int b, int c) {
